@@ -23,6 +23,7 @@
             <th>Alamat</th>
             <th>Jabatan</th>
         </tr>
+        <?php $counter = 0?>
         <?php foreach($rows as $row):?>
         <tr>
             <td><?php echo $row["ID"]?></td>
@@ -32,5 +33,6 @@
         </tr>
         <?php endforeach;?>
     </table>
+    <?php echo "Total user: " . $x;?>
 </body>
 </html>
